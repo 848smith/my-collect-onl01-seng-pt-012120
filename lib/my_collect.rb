@@ -5,7 +5,7 @@ def my_collect(array)
     new_array << yield(array[i].upcase)
     i += 1
   end
-  new_array
+  new_array 
 end
 
-my_collect(list) {|i| i.split(" ").first}
+my_collect(list)
