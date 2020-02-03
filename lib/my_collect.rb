@@ -7,3 +7,5 @@ def my_collect(array)
   end
   new_array
 end
+
+my_collect(new_array) {|i| i.split(" ").first}
